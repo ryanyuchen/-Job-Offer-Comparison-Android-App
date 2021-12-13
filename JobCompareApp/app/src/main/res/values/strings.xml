@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">JobCompare6300</string>
+    <string name="salary_weight">Salary Weight</string>
+    <string name="signing_bonus_weight">Signing Bonus Weight</string>
+    <string name="name">Name</string>
+    <string name="add">Add</string>
+    <string name="bonus_weight">Bonus Weight</string>
+    <string name="retirement_weight">Retirement Weight</string>
+    <string name="pto_weight">PTO Weight</string>
+    <string name="username">username</string>
+    <string name="select_jobs">Select Jobs</string>
+    <string name="select_user">Select User</string>
+    <string name="current_user">Current User</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="job_name">Job Name</string>
+    <string name="location">Location</string>
+    <string name="company">Company</string>
+    <string name="compare">Compare</string>
+    <string name="no_user_selected">No User Selected</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="software_engineer">Software Engineer</string>
+    <string name="job_title">Job Title</string>
+    <string name="san_francisco_ca">San Francisco, CA</string>
+    <string name="salary">Salary</string>
+    <string name="_50_000">$50,000</string>
+    <string name="yearlybonus">YearlyBonus</string>
+    <string name="yearly_bonus">Yearly Bonus</string>
+    <string name="retirement_match">Retirement (% match)</string>
+    <string name="leave_time_of_days">Leave Time (# of days)</string>
+    <string name="_3">3%</string>
+    <string name="foo_inc">Foo Inc.</string>
+    <string name="_10">10</string>
+    <string name="signing_bonus">Signing Bonus</string>
+    <string name="select">Select</string>
+
+</resources>

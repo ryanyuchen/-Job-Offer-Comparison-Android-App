@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AddUser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TitleLabel"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/NameInputID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/username"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/SalaryWeightLabelID"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:text="@string/salary_weight"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/SalaryWeightValueID"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <SeekBar
+                android:id="@+id/SalaryWeightSliderID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:max="100"
+                android:min="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/SigningBonusWeightLabelID"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:text="@string/signing_bonus_weight"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/SigningBonusWeightValueID"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewStart" />
+
+            <SeekBar
+                android:id="@+id/SigningBonusWeightSliderID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:max="100"
+                android:min="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/BonusWeightLabelID"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:text="@string/bonus_weight"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/BonusWeightValueID"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <SeekBar
+                android:id="@+id/BonusWeightSliderID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:max="100"
+                android:min="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/RetirementWeightLabelID"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:text="@string/retirement_weight"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/RetirementWeightValueID"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <SeekBar
+                android:id="@+id/RetirementWeightSliderID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:max="100"
+                android:min="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/PTOWeightLabelID"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:text="@string/pto_weight"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/PTOWeightValueID"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <SeekBar
+                android:id="@+id/PTOWeightSliderID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:max="100"
+                android:min="1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/addButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addUser"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
